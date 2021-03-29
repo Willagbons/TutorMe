@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TutorMe</title>
+    <!--FontAwesome CDN-->
+    <script src="https://kit.fontawesome.com/deff47af35.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--my css-->
+    <link rel="stylesheet" href="css/style.css">
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<!--my jquery-->
+<script src="js/jquery.js"></script>
+<!-- Latest compiled Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--header starts-->
+    <header id="header">
+        <a href="#" class="logo"><img src="images/school.png" id="logo">TutorMe</a> 
+        <nav>
+            <ul id="homeNavBar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tutors">Tutors</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <i class="fa fa-bars"></i> 
+    </header>
+    <!--header ends-->
+
+<!--home starts-->
+
+<section id="home" class="container-fluid">
+
+    <div class="row align-items-center  content">
+
+        <div class="col-md-8 text-center text-md-left">
+
+        <h2>Your </h2>
+        <h1>Online Tutor </h1>
+        <h3> is a few clicks away...</h3>
+
+        <a href="#tutors"><button>Get Started!</button></a>
+
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+
+        </div>
+    </div>
+</div>
+</section>
+<!--home ends-->
+
+<!--tutor starts-->
+<section id="tutors">
+<h1 class="heading">Our Tutors</h1>
+
+<div class="box-container">
+<div class="box">
+ <img src="images/tutor1.jpg" alt="">
+ <h3>Tony</h3>
+ <p>Courses: Advanced functions & Calculus</p>
+ <h5>Rating: 4.3/5</h5>
+</div>
+
+   <div class="box">
+    <img src="images/tutor2.jpg" alt="">
+    <h3>Candice</h3>
+    <p>Courses: Literature & Creative Writing</p>
+    <h5>Rating: 3.9/5</h5>
+   </div>
+
+   <div class="box">
+    <img src="images/tutor3.jpg" alt="">
+    <h3>Maddison</h3>
+    <p>Courses: MicroEconomics, Business & Accounting</p>
+    <h5>Rating: 4.0/5</h5>
+   </div>
+
+   <div class="box">
+    <img src="images/tutor4.jpg" alt="">
+    <h3>Indra</h3>
+    <p>Courses: World History </p>
+    <h5>Rating: 4.2/5</h5>
+   </div>
+
+   <div class="box">
+    <img src="images/tutor5.jpg" alt="">
+    <h3>Sara</h3>
+    <p>Courses: Music</p>
+    <h5>Rating: 4.3/5</h5>
+   </div>
+
+   <div class="box">
+    <img src="images/tutor6.jpg" alt="">
+    <h3>Karen</h3>
+    <p>Courses: Psychology & Philosophy</p>
+    <h5>Rating: 4.3/5</h5>
+   </div>
+</div>
+</section>
+<!--tutor ends-->
+
+<!--reviews start-->
+<section id="reviews">
+    <h1 class="heading">What Our Customers Have to say</h1>
+<div class="slide-container">
+
+    <div class="myReviews fade">
+    
+        <div class="innerDiv">
+            <i class="fas fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. - Laura</p>
+            <i class="fas fa-quote-left"></i>
+        </div>
+
+    </div>
+
+    <div class="myReviews fade">
+    
+            <div class="innerDiv ">
+                <i class="fas fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. - Kingston</p>
+                <i class="fas fa-quote-left"></i>
+            </div>
+
+        </div>
+
+        <div class="myReviews fade">
+         
+                <div class="innerDiv ">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. - Andrew</p>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+         
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+</div>
+</section>
+<!--reviews ends-->
+
+<!--contact starts-->
+<section id="contact" class="container-fluid">
+
+    <h1 class="heading">contact us</h1>
+    <div class="row align-items-center ">
+        <div class="col-lg-5 col-md-8 mx-auto">
+            <form action="">
+
+                <div class="inputBox">
+                    <h3>Full Name</h3>
+                 <input type="text" placeholder="Enter Full Name" required>
+                </div>
+
+                <div class="inputBox">
+                    <h3>Phone</h3>
+                    <input type="number" placeholder="Enter Phone Number" required>
+                </div>
+
+                   <div class="inputBox">
+                    <h3>Message</h3>
+                   <textarea name="" id=""cols="" rows="" required> </textarea>
+                </div>
+
+                <div class="inputBox">
+                    <input type="submit">
+                   </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--contact ends-->
+
+<!--footer starts-->
+<section id="footer">
+
+    <h1>&copy; copyright @ 2021 by <span>Will Agbonselobho</span></h1>
+</section>
+
+<!--footer ends-->
+
+   
+</body>
+</html>
